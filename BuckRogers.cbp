@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="BuckRogers" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/BuckRogers" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add library="sfml-graphics" />
+					<Add library="sfml-window" />
+					<Add library="sfml-system" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/BuckRogers" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="sfml-graphics" />
+					<Add library="sfml-window" />
+					<Add library="sfml-system" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="cb.bmp" />
+		<Unit filename="include/Boss.h" />
+		<Unit filename="include/Disparo.h" />
+		<Unit filename="include/Game.h" />
+		<Unit filename="include/HUD.h" />
+		<Unit filename="include/Misil.h" />
+		<Unit filename="include/NPC.h" />
+		<Unit filename="include/Nave.h" />
+		<Unit filename="include/Nivel.h" />
+		<Unit filename="include/Saltador.h" />
+		<Unit filename="include/Torre.h" />
+		<Unit filename="include/alien.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/Boss.cpp" />
+		<Unit filename="src/Disparo.cpp" />
+		<Unit filename="src/Game.cpp" />
+		<Unit filename="src/HUD.cpp" />
+		<Unit filename="src/Misil.cpp" />
+		<Unit filename="src/NPC.cpp" />
+		<Unit filename="src/Nave.cpp" />
+		<Unit filename="src/Nivel.cpp" />
+		<Unit filename="src/Saltador.cpp" />
+		<Unit filename="src/Torre.cpp" />
+		<Unit filename="src/alien.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<lib_finder disable_auto="1" />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

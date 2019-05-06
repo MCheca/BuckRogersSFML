@@ -1,0 +1,127 @@
+# depslib dependency file v1.0
+1553707576 source:/home/marcos/Escritorio/BuckRogers/main.cpp
+	<SFML/Graphics.hpp>
+	"Game.h"
+
+1557071967 /home/marcos/Escritorio/BuckRogers/include/Game.h
+	"SFML/Graphics.hpp"
+	"Nave.h"
+	"Nivel.h"
+	"Torre.h"
+	"Disparo.h"
+	"NPC.h"
+	"alien.h"
+	"Boss.h"
+	"HUD.h"
+
+1557138738 /home/marcos/Escritorio/BuckRogers/include/Nave.h
+	<Nave.h>
+	"Torre.h"
+	"Disparo.h"
+	"alien.h"
+	"Saltador.h"
+	"Nivel.h"
+	"Misil.h"
+	"SFML/Graphics.hpp"
+	<iostream>
+
+1557137280 source:/home/marcos/Escritorio/BuckRogers/src/Game.cpp
+	<iostream>
+	<math.h>
+	<algorithm>
+	"Game.h"
+
+1557138470 source:/home/marcos/Escritorio/BuckRogers/src/Nave.cpp
+	"Nave.h"
+	<iostream>
+	<Game.h>
+	<stdlib.h>
+
+1557136361 /home/marcos/Escritorio/BuckRogers/include/Nivel.h
+	<Nivel.h>
+	"Torre.h"
+	"NPC.h"
+	"alien.h"
+	"Boss.h"
+	"Saltador.h"
+	"SFML/Graphics.hpp"
+	<iostream>
+
+1557136987 source:/home/marcos/Escritorio/BuckRogers/src/Nivel.cpp
+	"Nivel.h"
+	<iostream>
+	<sstream>
+	<string>
+	<math.h>
+	<SFML/Graphics.hpp>
+	<stdlib.h>
+
+1556992163 /home/marcos/Escritorio/BuckRogers/include/Torre.h
+	"SFML/Graphics.hpp"
+	<iostream>
+
+1556992215 source:/home/marcos/Escritorio/BuckRogers/src/Torre.cpp
+	"Torre.h"
+	<iostream>
+
+1556558811 /home/marcos/Escritorio/BuckRogers/include/Disparo.h
+	"SFML/Graphics.hpp"
+	<iostream>
+
+1556968472 source:/home/marcos/Escritorio/BuckRogers/src/Disparo.cpp
+	"Disparo.h"
+	<iostream>
+
+1555265018 source:/home/marcos/Escritorio/BuckRogers/src/NPC.cpp
+	"NPC.h"
+
+1557074806 /home/marcos/Escritorio/BuckRogers/include/NPC.h
+	"SFML/Graphics.hpp"
+	<iostream>
+
+1557074844 /home/marcos/Escritorio/BuckRogers/include/alien.h
+	<NPC.h>
+
+1557074837 source:/home/marcos/Escritorio/BuckRogers/src/alien.cpp
+	"alien.h"
+	<iostream>
+	<Game.h>
+	<stdlib.h>
+
+1557137613 /home/marcos/Escritorio/BuckRogers/include/HUD.h
+	"SFML/Graphics.hpp"
+	<iostream>
+
+1557138725 source:/home/marcos/Escritorio/BuckRogers/src/HUD.cpp
+	"HUD.h"
+	<iostream>
+	<string>
+	<sstream>
+
+1557074825 /home/marcos/Escritorio/BuckRogers/include/Saltador.h
+	<NPC.h>
+
+1557074819 source:/home/marcos/Escritorio/BuckRogers/src/Saltador.cpp
+	"Saltador.h"
+	<iostream>
+	<Game.h>
+	<stdlib.h>
+
+1557080571 /home/marcos/Escritorio/BuckRogers/include/Boss.h
+	"Misil.h"
+	<NPC.h>
+
+1557080802 source:/home/marcos/Escritorio/BuckRogers/src/Boss.cpp
+	"Boss.h"
+	<iostream>
+	<Game.h>
+	<stdlib.h>
+
+1557073324 /home/marcos/Escritorio/BuckRogers/include/Misil.h
+	"SFML/Graphics.hpp"
+	<iostream>
+
+1557073764 source:/home/marcos/Escritorio/BuckRogers/src/Misil.cpp
+	"Misil.h"
+	<iostream>
+
